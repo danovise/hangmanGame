@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>237321730602-47abhikc2384hqpa2lo4ssk3jdkablu8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.237321730602-47abhikc2384hqpa2lo4ssk3jdkablu8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBUykyZ1GCjciCKCaQSzBbs_d3B81mlRpo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>237321730602</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>danovise.hangmanGame</string>
+	<key>PROJECT_ID</key>
+	<string>hangmangamed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hangmangamed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:237321730602:ios:d6238649264076af90e153</string>
+</dict>
+</plist>
