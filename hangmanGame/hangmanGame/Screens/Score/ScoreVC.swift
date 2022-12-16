@@ -40,9 +40,9 @@ class ScoreVC: UIViewController {
     
     private func setupViews() {
         view.addSubview(tableView)
-        navigationItem.rightBarButtonItem = homeBarButton
-        navigationController?.isNavigationBarHidden = false
         navigationItem.hidesBackButton = true
+        navigationItem.rightBarButtonItem = homeBarButton
+        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.149019599, green: 0.149019599, blue: 0.149019599, alpha: 1)
     }
     
     private func setupConstraints() {
