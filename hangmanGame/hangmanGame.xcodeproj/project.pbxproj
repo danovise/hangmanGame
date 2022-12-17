@@ -35,6 +35,10 @@
 		8463F5DB2949FE7A00E7240D /* ScoreArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5DA2949FE7A00E7240D /* ScoreArchiver.swift */; };
 		8463F5DD294A035B00E7240D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5DC294A035B00E7240D /* Score.swift */; };
 		8463F5DF294A03ED00E7240D /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5DE294A03ED00E7240D /* GameResponse.swift */; };
+		84ABB31C294E638E004E9C96 /* UIView+PinEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB31B294E638E004E9C96 /* UIView+PinEdges.swift */; };
+		84ABB31E294E63AD004E9C96 /* UIView+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB31D294E63AD004E9C96 /* UIView+hide.swift */; };
+		84ABB320294E63C6004E9C96 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */; };
+		84ABB322294E63DF004E9C96 /* UIScreen+sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		8463F5DA2949FE7A00E7240D /* ScoreArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArchiver.swift; sourceTree = "<group>"; };
 		8463F5DC294A035B00E7240D /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		8463F5DE294A03ED00E7240D /* GameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
+		84ABB31B294E638E004E9C96 /* UIView+PinEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinEdges.swift"; sourceTree = "<group>"; };
+		84ABB31D294E63AD004E9C96 /* UIView+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+hide.swift"; sourceTree = "<group>"; };
+		84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
+		84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+sizes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				8463F5BB29473ABB00E7240D /* Dependency Container */,
 				8463F5A0294731F600E7240D /* Screens */,
 				8463F5CE2948A88C00E7240D /* Model */,
+				84ABB31A294E6367004E9C96 /* Extensions */,
 				8463F5BF2947B2E900E7240D /* Services */,
 				8463F5A12947320E00E7240D /* Resources */,
 			);
@@ -212,6 +221,17 @@
 			path = Score;
 			sourceTree = "<group>";
 		};
+		84ABB31A294E6367004E9C96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84ABB31B294E638E004E9C96 /* UIView+PinEdges.swift */,
+				84ABB31D294E63AD004E9C96 /* UIView+hide.swift */,
+				84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */,
+				84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,13 +322,17 @@
 			files = (
 				8463F5D02948ACC900E7240D /* HowToPlayCell.swift in Sources */,
 				8463F5CD2948A88600E7240D /* RulesResponse.swift in Sources */,
+				84ABB320294E63C6004E9C96 /* UIView+loadNib.swift in Sources */,
 				8463F5DB2949FE7A00E7240D /* ScoreArchiver.swift in Sources */,
 				8463F590294731D800E7240D /* MainVC.swift in Sources */,
 				8463F5DF294A03ED00E7240D /* GameResponse.swift in Sources */,
+				84ABB322294E63DF004E9C96 /* UIScreen+sizes.swift in Sources */,
 				8463F58C294731D800E7240D /* AppDelegate.swift in Sources */,
 				8463F5B72947384700E7240D /* AuthVC.swift in Sources */,
 				8463F5D92949FBFF00E7240D /* ScoreCell.swift in Sources */,
 				8463F5D72949FB9F00E7240D /* ScoreVC.swift in Sources */,
+				84ABB31C294E638E004E9C96 /* UIView+PinEdges.swift in Sources */,
+				84ABB31E294E63AD004E9C96 /* UIView+hide.swift in Sources */,
 				8463F5DD294A035B00E7240D /* Score.swift in Sources */,
 				8463F5C12947B31600E7240D /* GameProvider.swift in Sources */,
 				8463F5C429488CE900E7240D /* GameVC.swift in Sources */,
