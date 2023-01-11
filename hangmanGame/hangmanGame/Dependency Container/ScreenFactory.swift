@@ -46,5 +46,4 @@ class ScreenFactoryImpl: ScreenFactory {
         
         return howToPlayVC
     }
-    
 }
