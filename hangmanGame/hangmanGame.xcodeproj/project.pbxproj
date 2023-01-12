@@ -23,7 +23,6 @@
 		8463F5B72947384700E7240D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5B62947384700E7240D /* AuthVC.swift */; };
 		8463F5BA2947388000E7240D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8463F5B92947388000E7240D /* SnapKit */; };
 		8463F5BD29473AD900E7240D /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5BC29473AD900E7240D /* ScreenFactory.swift */; };
-		8463F5C12947B31600E7240D /* GameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5C02947B31600E7240D /* GameProvider.swift */; };
 		8463F5C429488CE900E7240D /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463F5C329488CE900E7240D /* GameVC.swift */; };
 		8463F5C72948983400E7240D /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8463F5C52948983400E7240D /* english.txt */; };
 		8463F5C82948983400E7240D /* russian.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8463F5C62948983400E7240D /* russian.txt */; };
@@ -39,6 +38,9 @@
 		84ABB31E294E63AD004E9C96 /* UIView+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB31D294E63AD004E9C96 /* UIView+hide.swift */; };
 		84ABB320294E63C6004E9C96 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */; };
 		84ABB322294E63DF004E9C96 /* UIScreen+sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */; };
+		84D2F527296F0DF200723D9B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2F526296F0DF200723D9B /* LoadingView.swift */; };
+		84D2F529296F0E9900723D9B /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2F528296F0E9900723D9B /* UIViewController+alert.swift */; };
+		84D2F52C296F0FBD00723D9B /* loading-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D2F52B296F0FBD00723D9B /* loading-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +53,6 @@
 		8463F5A22947357700E7240D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8463F5B62947384700E7240D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		8463F5BC29473AD900E7240D /* ScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
-		8463F5C02947B31600E7240D /* GameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProvider.swift; sourceTree = "<group>"; };
 		8463F5C329488CE900E7240D /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		8463F5C52948983400E7240D /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english.txt; sourceTree = "<group>"; };
 		8463F5C62948983400E7240D /* russian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = russian.txt; sourceTree = "<group>"; };
@@ -67,6 +68,9 @@
 		84ABB31D294E63AD004E9C96 /* UIView+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+hide.swift"; sourceTree = "<group>"; };
 		84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+sizes.swift"; sourceTree = "<group>"; };
+		84D2F526296F0DF200723D9B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		84D2F528296F0E9900723D9B /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		84D2F52B296F0FBD00723D9B /* loading-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				8463F59F294731E900E7240D /* App */,
 				8463F5BB29473ABB00E7240D /* Dependency Container */,
 				8463F5A0294731F600E7240D /* Screens */,
+				84D2F525296F0DC400723D9B /* Views */,
 				8463F5CE2948A88C00E7240D /* Model */,
 				84ABB31A294E6367004E9C96 /* Extensions */,
 				8463F5BF2947B2E900E7240D /* Services */,
@@ -142,9 +147,9 @@
 		8463F5A12947320E00E7240D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84D2F52A296F0F8F00723D9B /* Words */,
 				8463F5A22947357700E7240D /* GoogleService-Info.plist */,
-				8463F5C52948983400E7240D /* english.txt */,
-				8463F5C62948983400E7240D /* russian.txt */,
+				84D2F52B296F0FBD00723D9B /* loading-animation.json */,
 				8463F594294731D900E7240D /* Assets.xcassets */,
 				8463F596294731D900E7240D /* LaunchScreen.storyboard */,
 				8463F599294731D900E7240D /* Info.plist */,
@@ -180,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				8463F5DA2949FE7A00E7240D /* ScoreArchiver.swift */,
-				8463F5C02947B31600E7240D /* GameProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -228,8 +232,26 @@
 				84ABB31D294E63AD004E9C96 /* UIView+hide.swift */,
 				84ABB31F294E63C6004E9C96 /* UIView+loadNib.swift */,
 				84ABB321294E63DF004E9C96 /* UIScreen+sizes.swift */,
+				84D2F528296F0E9900723D9B /* UIViewController+alert.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84D2F525296F0DC400723D9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84D2F526296F0DF200723D9B /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84D2F52A296F0F8F00723D9B /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				8463F5C62948983400E7240D /* russian.txt */,
+				8463F5C52948983400E7240D /* english.txt */,
+			);
+			path = Words;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +332,7 @@
 				8463F5A32947357700E7240D /* GoogleService-Info.plist in Resources */,
 				8463F595294731D900E7240D /* Assets.xcassets in Resources */,
 				8463F5C72948983400E7240D /* english.txt in Resources */,
+				84D2F52C296F0FBD00723D9B /* loading-animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,10 +357,11 @@
 				84ABB31C294E638E004E9C96 /* UIView+PinEdges.swift in Sources */,
 				84ABB31E294E63AD004E9C96 /* UIView+hide.swift in Sources */,
 				8463F5DD294A035B00E7240D /* Score.swift in Sources */,
-				8463F5C12947B31600E7240D /* GameProvider.swift in Sources */,
 				8463F5C429488CE900E7240D /* GameVC.swift in Sources */,
 				8463F5BD29473AD900E7240D /* ScreenFactory.swift in Sources */,
+				84D2F527296F0DF200723D9B /* LoadingView.swift in Sources */,
 				8463F5CB2948A82300E7240D /* HowToPlayVC.swift in Sources */,
+				84D2F529296F0E9900723D9B /* UIViewController+alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
